@@ -1,0 +1,1220 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{listings}
+\usepackage{fancyhdr}
+
+% ==========================================
+% PAGE STYLE
+% ==========================================
+
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[C]{\thepage}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% ==========================================
+% JAVA CODE STYLE
+% ==========================================
+
+\lstdefinestyle{javacode}{
+    language=Java,
+    basicstyle=\ttfamily\small,
+    numbers=left,
+    numberstyle=\tiny,
+    numbersep=10pt,
+    frame=single,
+    breaklines=true,
+    showstringspaces=false,
+    columns=fullflexible,
+    keepspaces=true,
+    tabsize=4
+}
+
+% ==========================================
+% OUTPUT STYLE
+% ==========================================
+
+\lstdefinestyle{outputstyle}{
+    basicstyle=\ttfamily\small,
+    frame=single,
+    breaklines=true,
+    showstringspaces=false,
+    columns=fullflexible,
+    keepspaces=true
+}
+
+% ==========================================
+% EXPERIMENT COUNTER
+% ==========================================
+
+\newcounter{experiment}
+
+% ==========================================
+% START EXPERIMENT
+%
+% #1 = Date
+% #2 = Aim
+% #3 = Java file
+% ==========================================
+
+\newcommand{\startexperiment}[3]{
+
+\stepcounter{experiment}
+
+\begin{center}
+    {\LARGE\textbf{JAVA PROGRAMMING LAB}}
+\end{center}
+
+\vspace{0.8cm}
+
+\noindent
+\textbf{Experiment No.: \theexperiment}
+\hfill
+\textbf{Date: #1}
+
+\vspace{0.2cm}
+
+\hrule
+
+\vspace{0.8cm}
+
+\noindent
+\textbf{Aim:}
+
+\vspace{0.3cm}
+
+#2
+
+\vspace{0.7cm}
+
+\noindent
+\textbf{Program:}
+
+\vspace{0.3cm}
+
+\lstinputlisting[style=javacode]{#3}
+
+\vspace{0.7cm}
+
+\noindent
+\textbf{Output:}
+
+\vspace{0.3cm}
+
+}
+
+% ==========================================
+% END EXPERIMENT
+% ==========================================
+
+\newcommand{\finishExperiment}{
+    \newpage
+}
+
+% ==========================================
+% DOCUMENT
+% ==========================================
+
+\begin{document}
+
+% ==========================================
+% PROGRAM 1
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to display a message. ``Let us start Java programming.''}
+{1.java}
+
+\begin{lstlisting}[style=outputstyle]
+Let us start Java programming.
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 2
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to find the sum of the two numbers.}
+{2.java}
+
+\begin{lstlisting}[style=outputstyle]
+sum of two numbers: 25
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 3
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to understand the effect of print() and println() methods and the backslash codes.}
+{3.java}
+
+\begin{lstlisting}[style=outputstyle]
+Hello Java Programming
+Hello
+Java
+Programming
+Hello
+Java
+Hello   Java
+"Java Programming"
+C:\Java\Programs
+HellJava
+Javao
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 4
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to observe the effects of various bitwise operators.}
+{4.java}
+
+\begin{lstlisting}[style=outputstyle]
+a = 5
+b = 3
+a & b = 1
+a | b = 7
+a ^ b = 6
+~a = -6
+a << 1 = 10
+a >> 1 = 2
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 5
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to implement the arithmetic operators.}
+{5.java}
+
+\begin{lstlisting}[style=outputstyle]
+x = 10
+y = 5
+x + y = 15
+x - y = 5
+x * y = 50
+x / y = 2
+x % y = 0
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 6
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to implement the relational operators.}
+{6.java}
+
+\begin{lstlisting}[style=outputstyle]
+x = 10
+y = 5
+x > y = true
+x < y = false
+x >= y = true
+x <= y = false
+x == y = false
+x != y = true
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 7
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to implement the assignment operators.}
+{7.java}
+
+\begin{lstlisting}[style=outputstyle]
+x = 10
+y = 5
+x += y = 15
+x -= y = 10
+x *= y = 50
+x /= y = 10
+x %= y = 0
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 8
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to implement the increment and decrement operators.}
+{8.java}
+
+\begin{lstlisting}[style=outputstyle]
+x = 10
+y = 5
+x++ = 10
+x-- = 11
+++y = 6
+--y = 5
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 9
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to implement the logical operators.}
+{9.java}
+
+\begin{lstlisting}[style=outputstyle]
+a = true
+b = false
+a && b = false
+a || b = true
+!a = false
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 10
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to implement the conditional operator.}
+{10.java}
+
+\begin{lstlisting}[style=outputstyle]
+X = 10
+y = 5
+!(x > y) = false
+!(x < y) = true
+x > y && x < y = false
+x > y || x < y = true
+x > y ? x : y = 10
+x > y ^ x < y = true
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 11
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to find the subtraction of two numbers.}
+{11.java}
+
+\begin{lstlisting}[style=outputstyle]
+The substraction of two numbers: 5
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 12
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to find the multiplication of two numbers.}
+{12.java}
+
+\begin{lstlisting}[style=outputstyle]
+The multiplication of two numbers: 50
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 13
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to find the quotient and remainder of two integers.}
+{13.java}
+
+\begin{lstlisting}[style=outputstyle]
+The Quotient of two numbers: 2
+The Remainder of two numbers: 3
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 14
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to calculate the area and perimeter of a rectangle.}
+{14.java}
+
+\begin{lstlisting}[style=outputstyle]
+The area of rectangle: 204
+The perimeter of rectangle: 58
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 15
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to calculate the area of a triangle using base and height.}
+{15.java}
+
+\begin{lstlisting}[style=outputstyle]
+The area of triangle: 17.5
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 16
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to convert temperature from Celsius to Fahrenheit.}
+{16.java}
+
+\begin{lstlisting}[style=outputstyle]
+The temperature in Celcius: 42
+The temperature in Fahrnehit: 107
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 17
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to swap two numbers using a third variable.}
+{17.java}
+
+\begin{lstlisting}[style=outputstyle]
+The value of a before swapping: 11
+The value of b before swapping: 4
+
+The value of a after swapping: 4
+The value of b after swapping: 11
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 18
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to swap two numbers without using a third variable.}
+{18.java}
+
+\begin{lstlisting}[style=outputstyle]
+The value of a before swapping: 17
+The value of b before swapping: 6
+
+The value of a after swapping: 6
+The value of b after swapping: 17
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 19
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to calculate simple interest using principal, rate and time.}
+{19.java}
+
+\begin{lstlisting}[style=outputstyle]
+The simple interest is: 1750.0
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 20
+% ==========================================
+
+\startexperiment
+{30/07/2026}
+{WAP to find the greater of two numbers using the conditional (?:) operator.}
+{20.java}
+
+\begin{lstlisting}[style=outputstyle]
+The greater number: 45
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 21
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to implement the following Math functions:
+\begin{itemize}
+    \item sqrt(x)
+    \item pow(x, y)
+    \item sin(x)
+    \item cos(x)
+    \item tan(x)
+    \item ceil(x)
+    \item floor(x)
+    \item rint(x)
+    \item abs(a)
+    \item max(a, b)
+    \item min(a, b)
+\end{itemize}}
+{21.java}
+
+\begin{lstlisting}[style=outputstyle]
+sqrt(x) = 5.049752469181039
+pow(x, y) = 650.25
+sin(x) = 0.3590583540221683
+cos(x) = 0.933315112063922
+tan(x) = 0.3847128899779099
+ceil(x) = 26.0
+floor(x) = 25.0
+rint(x) = 26.0
+abs(a) = 10
+max(a, b) = 20
+min(a, b) = -10
+\end{lstlisting}
+
+\finishExperiment
+
+% ==========================================
+% PROGRAM 22
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to implement only if statement.}
+{22.java}
+
+\begin{lstlisting}[style=outputstyle]
+The number is positive.
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 23
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to implement if-else  statement.}
+{23.java}
+
+\begin{lstlisting}[style=outputstyle]
+15 is an odd number.
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 24
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to implement nested if-else statement.}
+{24.java}
+
+\begin{lstlisting}[style=outputstyle]
+25 is the greatest number.
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 25
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to implement if else ladder.}
+{25.java}
+
+\begin{lstlisting}[style=outputstyle]
+Grade B
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 26
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to test the given number is positive or negative.}
+{26.java}
+
+\begin{lstlisting}[style=outputstyle]
+The number is positive.
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 27
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to implement if--else statement.}
+{27.java}
+
+\begin{lstlisting}[style=outputstyle]
+You are eligible to vote.
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 28
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to display numbers from 1 to 10 using do--while loop.}
+{28.java}
+
+\begin{lstlisting}[style=outputstyle]
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 29
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to display numbers from 1 to 10 using while loop.}
+{29.java}
+
+\begin{lstlisting}[style=outputstyle]
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 30
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to display numbers from 1 to 10 using for loop.}
+{30.java}
+
+\begin{lstlisting}[style=outputstyle]
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 31
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to find the greater of three numbers using if-else statements.}
+{31.java}
+
+\begin{lstlisting}[style=outputstyle]
+Enter three numbers: 7 3 9
+The greatest number is: 9
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 32
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to check whether a given number is divisible by 5 and 11 using if-else statement.}
+{32.java}
+
+\begin{lstlisting}[style=outputstyle]
+Enter a number: 154
+The number is divisible by 7 and 11.
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 33
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to check whether an entered character is a vowel or consonant using if-else statement.}
+{33.java}
+
+\begin{lstlisting}[style=outputstyle]
+Enter a character: t
+The character is a consonant.
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 34
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to display the multiplication table of a given number using for loop.}
+{34.java}
+
+\begin{lstlisting}[style=outputstyle]
+Enter a number to print its multiplication table: 13
+Enter the range of multiplication table: 10
+13 * 0 = 0
+13 * 1 = 13
+13 * 2 = 26
+13 * 3 = 39
+13 * 4 = 52
+13 * 5 = 65
+13 * 6 = 78
+13 * 7 = 91
+13 * 8 = 104
+13 * 9 = 117
+13 * 10 = 130
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 35
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to find the sum of numbers from 1 to 10 using for loop.}
+{35.java}
+
+\begin{lstlisting}[style=outputstyle]
+The sum of numbers from 1 to 10 is: 55
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 36
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to display all even numbers from 1 to 10 using while loop.}
+{36.java}
+
+\begin{lstlisting}[style=outputstyle]
+Even numbers from 1 to 10 are: 2 4 6 8 10 
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 37
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to display all odd numbers from 1 to 10 using do-while loop.}
+{37.java}
+
+\begin{lstlisting}[style=outputstyle]
+Odd numbers from 1 to 10 are: 1 3 5 7 9 
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 38
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to calculate the sum of even and odd numbers separately from 1 to 100.}
+{38.java}
+
+\begin{lstlisting}[style=outputstyle]
+Sum of even number between 1 to 100: 2550
+Sum of odd number between 1 to 100: 2500
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 39
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to find the sum of digits of a given number using while loop.}
+{39.java}
+
+\begin{lstlisting}[style=outputstyle]
+Enter a number of multiple digits: 154
+Sum of digits of number 154: 10
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 40
+% ==========================================
+
+\startexperiment
+{06/08/2026}
+{WAP to reverse a given integer using while loop.}
+{40.java}
+
+\begin{lstlisting}[style=outputstyle]
+Enter a number to reverse: 45 
+Reverse of number 45: 54
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 41
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP to display stars in a triangular form a single star in 1st line, two stars in 2nd line, three stars in 3rd line and so on.}
+{41.java}
+
+\begin{lstlisting}[style=outputstyle]
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 42
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP to implement switch statement.}
+{42.java}
+
+\begin{lstlisting}[style=outputstyle]
+Enter a number (1-3): 3
+You selected Three.
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 43
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP to display numbers from 10 to 1in descending order using for loop.}
+{43.java}
+
+\begin{lstlisting}[style=outputstyle]
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 44
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP to display numbers from 1 to 10 using infinite for loop.}
+{44.java}
+
+\begin{lstlisting}[style=outputstyle]
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 45
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP to accept and display a character from the keyboard using Buffered Reader class.}
+{45.java}
+
+\begin{lstlisting}[style=outputstyle]
+Enter a character: d
+The entered character is: d
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 46
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP to accept and display a string or a name from the keyboard using Buffered Reader class.}
+{46.java}
+
+\begin{lstlisting}[style=outputstyle]
+Enter your name: Aditya Raj
+Your name is: Aditya Raj
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 47
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP to accept and display an integer from the keyboard using Buffered Reader class.}
+{47.java}
+
+\begin{lstlisting}[style=outputstyle]
+Enter an integer: 23
+The entered integer is: 23
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 48
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP to accept and display a float number from the keyboard using Buffered Reader class.}
+{48.java}
+
+\begin{lstlisting}[style=outputstyle]
+Enter a float number: 43.67
+The entered float number is: 43.67
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 49
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP to accept and display employee details using Buffered Reader class.}
+{49.java}
+
+\begin{lstlisting}[style=outputstyle]
+Enter employee ID: 101
+Enter employee name: Ravi
+Enter employee salary: 75000
+
+Employee Details
+Employee ID: 101
+Employee Name: Ravi
+Employee Salary: 75000.0
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 50
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP accept a year from the keyboard and test if it is leap or not.}
+{50.java}
+
+\begin{lstlisting}[style=outputstyle]
+Enter a year: 2020
+2020 is a leap year.
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 51
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP to display the following number pattern using nested for loops.
+		1
+		1 2
+		1 2 3
+		1 2 3 4
+		1 2 3 4 5}
+{51.java}
+
+\begin{lstlisting}[style=outputstyle]
+1
+12
+123
+1234
+12345
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 52
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP to display the following number pattern using nested for loops.
+		1
+		2 2
+		3 3 3
+		4 4 4 4
+		5 5 5 5 5}
+{52.java}
+
+\begin{lstlisting}[style=outputstyle]
+1
+22
+333
+4444
+55555
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 53
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP to display the following reverse number pattern using nested for loops.
+		5 5 5 5 5
+		4 4 4 4
+		3 3 3
+		2 2
+		1}
+{53.java}
+
+\begin{lstlisting}[style=outputstyle]
+55555
+4444
+333
+22
+1
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 54
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP to display the following reverse number pattern using nested for loops.
+		1 2 3 4 5
+		1 2 3 4
+		1 2 3
+		1 2
+		1}
+{54.java}
+
+\begin{lstlisting}[style=outputstyle]
+12345
+1234
+123
+12
+1
+\end{lstlisting}
+
+\finishExperiment
+
+
+% ==========================================
+% PROGRAM 55
+% ==========================================
+
+\startexperiment
+{13/08/2026}
+{WAP to display a pyramid pattern of stars using nested for loops.}
+{55.java}
+
+\begin{lstlisting}[style=outputstyle]
+              *
+             ***
+            *****
+           *******
+          *********
+         ***********
+        *************
+       ***************
+      *****************
+     *******************
+    *********************
+   ***********************
+  *************************
+ ***************************
+\end{lstlisting}
+
+\finishExperiment
+
+
+
+\end{document}
