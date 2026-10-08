@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.10)  16 AUG 2026 10:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.10)  4 OCT 2026 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -111,20 +111,20 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -163,49 +163,44 @@ LaTeX Font Info:    ... okay on input line 123.
 \c@lstlisting=\count296
 (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (./1.java
+) (./56.java
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
-) [1
+[73
 
-{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./2.java) [2] (./3.java) [3] [4] (./4.java) [5] [6] (./5.java) [7] (./6.java)
-[8] (./7.java) [9] [10] (./8.java) [11] (./9.java) [12] (./10.java) [13]
-(./11.java) [14] (./12.java) [15] (./13.java) [16] (./14.java) [17] (./15.java)
-[18] (./16.java) [19] (./17.java) [20] (./18.java) [21] (./19.java) [22]
-(./20.java) [23] (./21.java [24{/usr/local/texlive/2026/texmf-dist/fonts/enc/dv
-ips/cm-super/cm-super-ts1.enc}]) [25] (./22.java) [26] (./23.java) [27]
-(./24.java) [28] [29] (./25.java) [30] [31] (./26.java) [32] (./27.java)
-[33] (./28.java) [34] (./29.java) [35] (./30.java) [36] (./31.java) [37]
-[38] (./32.java) [39] (./33.java) [40] [41] (./34.java) [42] [43] (./35.java)
-[44] (./36.java) [45] (./37.java) [46] (./38.java [47]) [48] (./39.java)
-[49] [50] (./40.java) [51] [52] (./41.java) [53] (./42.java [54]) [55]
-(./43.java) [56] (./44.java) [57] [58] (./45.java) [59] (./46.java) [60]
-(./47.java) [61] (./48.java) [62] (./49.java) [63] [64] (./50.java) [65]
-[66] (./51.java) [67] (./52.java) [68] (./53.java) [69] (./54.java) [70]
-(./55.java) [71] [72] (./main.aux)
+{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+[74] (./57.java [75]) [76] [77] (./58.java) [78] (./59.java) [79] (./60.java)
+[80] [81] (./61.java) [82] [83] (./62.java [84]) [85] (./63.java [86]) [87]
+(./64.java [88]) [89] (./65.java [90]) [91] (./66.java [92]) [93] (./67.java
+[94]) [95] (./68.java [96]) [97] (./69.java [98]) [99] (./70.java [100])
+[101] (./71.java [102]) [103] (./72.java [104]) [105] (./73.java [106])
+[107] (./74.java [108]) [109] (./75.java [110]) [111] (./76.java [112])
+[113] (./77.java [114]) [115] (./78.java [116]) [117] (./79.java [118])
+[119] (./80.java [120]) [121] (./81.java [122]) [123] (./82.java [124])
+[125] (./83.java [126]) [127] (./84.java [128]) [129] (./85.java [130])
+[131] (./86.java [132]) [133] (./87.java [134]) [135] (./88.java [136])
+[137] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3703 strings out of 467525
- 53530 string characters out of 5418982
- 981632 words of memory out of 5000000
- 32487 multiletter control sequences out of 15000+600000
- 630207 words of font info for 49 fonts, out of 8000000 for 9000
+ 3526 strings out of 467525
+ 51508 string characters out of 5418982
+ 946679 words of memory out of 5000000
+ 32377 multiletter control sequences out of 15000+600000
+ 629870 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,65p,178b,1978s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,12n,65p,282b,2039s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></us
-r/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr
-/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (72 pages, 163987 bytes).
+r/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (65 pages, 145492 bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
+ 234 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

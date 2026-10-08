@@ -25,10 +25,10 @@ class Employee {
 
     void showval() {
 
-        System.out.print("\nEmployee Details");
-        System.out.print("Employee ID: " + empid);
-        System.out.print("Employee Name: " + empname);
-        System.out.print("Employee Salary: " + salary);
+        System.out.println("\nEmployee Details");
+        System.out.println("Employee ID: " + empid);
+        System.out.println("Employee Name: " + empname);
+        System.out.println("Employee Salary: " + salary);
     }
 }
 
